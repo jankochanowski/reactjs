@@ -10,12 +10,23 @@
 </head>
 <body>
   <div id="app"></div>
+ 
+  
   <script type="text/babel">
-    ReactDOM.render(
-    <div>
+  
+  function MojKomponent() {
+  return(
+  <div>
       <h1>render dupa</h1>
       <h2>LOL LOL</h2>
-      </div>,
+      </div>
+  )
+  }
+  
+  
+    ReactDOM.render(
+    <MojKomponent />
+    ,
       document.getElementById('app')
     );
   </script>
