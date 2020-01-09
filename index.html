@@ -14,18 +14,18 @@
   
   <script type="text/babel">
   
-  function MojKomponent() {
+  function MojKomponent(title, text) {
   return(
   <div>
-      <h1>render dupa</h1>
-      <h2>LOL LOL</h2>
+      <h1>{title}</h1>
+      <h2>{text}</h2>
       </div>
   );
   }
   
   
     ReactDOM.render(
-    <MojKomponent />
+    <MojKomponent title="dupa" text="ho ho" />
     ,
       document.getElementById('app')
     );
